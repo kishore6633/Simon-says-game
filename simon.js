@@ -41,9 +41,9 @@ gameFlash(randBtn);
      }
    }else{
       h2.innerHTML=`game over! your sore is ${level} press any key to restart the game`;
-      document.querySelector("body").style.backgrondColor="red";
+      document.querySelector("body").style.backgroundColor="red";
       setTimeout(function(){
-         document.querySelector("body").style.backgrondColor="white";
+         document.querySelector("body").style.backgroundColor="white";
       },150);
       reset();
    }
